@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 /* Importing component files */
-
+@import url("components/reset.css");
 @import url("components/container.css");
 @import url("components/button.css");
 @import url("components/banner.css");
@@ -39,6 +39,8 @@ h1, h2, h3, h4, h5, a {
 	font-family: 'Roboto', sans-serif;
 }
 
+h1 { font-size: 32px }
+
 h2 {
 	margin-left: 50px;
 	margin-top: 60px;
@@ -48,4 +50,9 @@ h2 {
 
 h3 {
 	color: white;
+}
+
+
+.float-right{
+	float: right;
 }
